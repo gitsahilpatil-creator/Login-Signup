@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend of login project",
+  "homepage": "https://github.com/gitsahilpatil-creator/Login-Signup#readme",
+  "bugs": {
+    "url": "https://github.com/gitsahilpatil-creator/Login-Signup/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gitsahilpatil-creator/Login-Signup.git"
+  },
+  "license": "ISC",
+  "author": "Sahil",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
